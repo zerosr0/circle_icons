@@ -13,9 +13,26 @@
 
 <body>
   <header>
-    <h1><a href="#"><img src="MainLogo.png" alt="logo"></a></h1>
+    <h1><a href="#"><img src="./img/MainLogo.png" alt="logo"></a></h1>
+    <nav class="header__nav">
+      <li>About</li>
+      <li>Product</li>
+      <li>Board</li>
+      <li>Contact</li>
+    </nav>
   </header>
-  <nav class="open">
+  <section class="main-slide">
+    <ul class="main-slide__container">
+      <li><img src="./img/main_bg1.jpg" alt=""></li>
+      <li><img src="./img/main_bg2.jpg" alt=""></li>
+      <li><img src="./img/main_bg3.jpg" alt=""></li>
+    </ul>
+    <ul class="main-slide__btns">
+      <span class="prev"><i class="fas fa-angles-left"></i></span>
+      <span class="next"><i class="fas fa-angles-right"></i></span>
+    </ul>
+  </section>
+  <nav class="quick-menu__nav">
     <div class="nav-content">
       <div id="toggle-btn">
         <i class="fas fa-plus"></i>
